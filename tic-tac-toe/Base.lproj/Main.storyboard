@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Jbx-Kw-LEn">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Tic-Tac-Toe-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="tic_tac_toe" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kv3-2r-KHx"/>
+                        <viewControllerLayoutGuide type="bottom" id="yC4-U5-cRw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="field" translatesAutoresizingMaskIntoConstraints="NO" id="Tej-If-2qN">
+                                <rect key="frame" x="0.0" y="66" width="320" height="502"/>
+                            </imageView>
+                            <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cad-MG-YV1" customClass="Tic_tac_toeImageView" customModule="tic_tac_toe" customModuleProvider="target">
+                                <rect key="frame" x="37" y="200" width="50" height="50"/>
+                            </imageView>
+                            <imageView tag="1" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="i62-Zg-rzp" customClass="Tic_tac_toeImageView" customModule="tic_tac_toe" customModuleProvider="target">
+                                <rect key="frame" x="135" y="200" width="50" height="50"/>
+                            </imageView>
+                            <imageView tag="2" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yhX-QL-KKy" customClass="Tic_tac_toeImageView" customModule="tic_tac_toe" customModuleProvider="target">
+                                <rect key="frame" x="233" y="200" width="50" height="50"/>
+                            </imageView>
+                            <imageView tag="3" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vgE-9A-mBd" customClass="Tic_tac_toeImageView" customModule="tic_tac_toe" customModuleProvider="target">
+                                <rect key="frame" x="37" y="299" width="50" height="50"/>
+                            </imageView>
+                            <imageView tag="4" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qj4-zv-0bo" customClass="Tic_tac_toeImageView" customModule="tic_tac_toe" customModuleProvider="target">
+                                <rect key="frame" x="135" y="299" width="50" height="50"/>
+                            </imageView>
+                            <imageView tag="5" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mLM-I9-MEi" customClass="Tic_tac_toeImageView" customModule="tic_tac_toe" customModuleProvider="target">
+                                <rect key="frame" x="233" y="299" width="50" height="50"/>
+                            </imageView>
+                            <imageView tag="6" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ybY-c3-Kxc" customClass="Tic_tac_toeImageView" customModule="tic_tac_toe" customModuleProvider="target">
+                                <rect key="frame" x="37" y="398" width="50" height="50"/>
+                            </imageView>
+                            <imageView tag="7" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NmC-eH-SME" customClass="Tic_tac_toeImageView" customModule="tic_tac_toe" customModuleProvider="target">
+                                <rect key="frame" x="135" y="398" width="50" height="50"/>
+                            </imageView>
+                            <imageView tag="8" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4S8-uQ-oXC" customClass="Tic_tac_toeImageView" customModule="tic_tac_toe" customModuleProvider="target">
+                                <rect key="frame" x="233" y="398" width="50" height="50"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Tej-If-2qN" firstAttribute="top" secondItem="kv3-2r-KHx" secondAttribute="bottom" constant="2" id="Bt8-1O-Pv0"/>
+                            <constraint firstItem="Tej-If-2qN" firstAttribute="bottom" secondItem="yC4-U5-cRw" secondAttribute="top" id="ICo-6b-8pz"/>
+                            <constraint firstItem="Tej-If-2qN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="SVY-fp-ELv"/>
+                            <constraint firstAttribute="trailing" secondItem="Tej-If-2qN" secondAttribute="trailing" id="k3C-Xl-oPx"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Tic-Tac-Toe" id="ECy-Zi-vY4">
+                        <barButtonItem key="leftBarButtonItem" title="Connect" id="7Q9-a7-3Pg">
+                            <connections>
+                                <action selector="connectWithPlayer:" destination="BYZ-38-t0r" id="WXx-xP-hWy"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="New Game" id="H2P-zf-CGP">
+                            <connections>
+                                <action selector="newGame:" destination="BYZ-38-t0r" id="gzd-vz-aIR"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outletCollection property="fields" destination="Cad-MG-YV1" collectionClass="NSMutableArray" id="ZRc-Te-gTb"/>
+                        <outletCollection property="fields" destination="i62-Zg-rzp" collectionClass="NSMutableArray" id="hJb-6g-KsJ"/>
+                        <outletCollection property="fields" destination="yhX-QL-KKy" collectionClass="NSMutableArray" id="4Kq-Ic-iB0"/>
+                        <outletCollection property="fields" destination="mLM-I9-MEi" collectionClass="NSMutableArray" id="Ysj-NA-1Gt"/>
+                        <outletCollection property="fields" destination="qj4-zv-0bo" collectionClass="NSMutableArray" id="SGa-jy-XgN"/>
+                        <outletCollection property="fields" destination="vgE-9A-mBd" collectionClass="NSMutableArray" id="Ivl-AQ-ZOC"/>
+                        <outletCollection property="fields" destination="4S8-uQ-oXC" collectionClass="NSMutableArray" id="uxq-b7-VLN"/>
+                        <outletCollection property="fields" destination="NmC-eH-SME" collectionClass="NSMutableArray" id="jaT-G0-xEz"/>
+                        <outletCollection property="fields" destination="ybY-c3-Kxc" collectionClass="NSMutableArray" id="Uhv-TW-u3L"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="694" y="366"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="9bb-sW-GoG">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Jbx-Kw-LEn" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="DQg-DC-eHq">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Z4h-VB-SRa"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qn9-GE-qPv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="162" y="366"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="field" width="213" height="335"/>
+    </resources>
+</document>
