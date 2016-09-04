@@ -21,31 +21,31 @@
                                 <rect key="frame" x="0.0" y="66" width="320" height="502"/>
                             </imageView>
                             <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cad-MG-YV1" customClass="Tic_tac_toeImageView" customModule="tic_tac_toe" customModuleProvider="target">
-                                <rect key="frame" x="37" y="200" width="50" height="50"/>
+                                <rect key="frame" x="20" y="208" width="100" height="100"/>
                             </imageView>
                             <imageView tag="1" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="i62-Zg-rzp" customClass="Tic_tac_toeImageView" customModule="tic_tac_toe" customModuleProvider="target">
-                                <rect key="frame" x="135" y="200" width="50" height="50"/>
+                                <rect key="frame" x="137" y="206" width="100" height="100"/>
                             </imageView>
                             <imageView tag="2" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yhX-QL-KKy" customClass="Tic_tac_toeImageView" customModule="tic_tac_toe" customModuleProvider="target">
-                                <rect key="frame" x="233" y="200" width="50" height="50"/>
+                                <rect key="frame" x="261" y="206" width="100" height="100"/>
                             </imageView>
                             <imageView tag="3" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vgE-9A-mBd" customClass="Tic_tac_toeImageView" customModule="tic_tac_toe" customModuleProvider="target">
-                                <rect key="frame" x="37" y="299" width="50" height="50"/>
+                                <rect key="frame" x="19" y="323" width="100" height="100"/>
                             </imageView>
                             <imageView tag="4" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qj4-zv-0bo" customClass="Tic_tac_toeImageView" customModule="tic_tac_toe" customModuleProvider="target">
-                                <rect key="frame" x="135" y="299" width="50" height="50"/>
+                                <rect key="frame" x="137" y="323" width="100" height="100"/>
                             </imageView>
                             <imageView tag="5" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mLM-I9-MEi" customClass="Tic_tac_toeImageView" customModule="tic_tac_toe" customModuleProvider="target">
-                                <rect key="frame" x="233" y="299" width="50" height="50"/>
+                                <rect key="frame" x="261" y="323" width="100" height="100"/>
                             </imageView>
                             <imageView tag="6" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ybY-c3-Kxc" customClass="Tic_tac_toeImageView" customModule="tic_tac_toe" customModuleProvider="target">
-                                <rect key="frame" x="37" y="398" width="50" height="50"/>
+                                <rect key="frame" x="20" y="448" width="100" height="100"/>
                             </imageView>
                             <imageView tag="7" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NmC-eH-SME" customClass="Tic_tac_toeImageView" customModule="tic_tac_toe" customModuleProvider="target">
-                                <rect key="frame" x="135" y="398" width="50" height="50"/>
+                                <rect key="frame" x="137" y="448" width="100" height="100"/>
                             </imageView>
                             <imageView tag="8" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4S8-uQ-oXC" customClass="Tic_tac_toeImageView" customModule="tic_tac_toe" customModuleProvider="target">
-                                <rect key="frame" x="233" y="398" width="50" height="50"/>
+                                <rect key="frame" x="261" y="448" width="100" height="100"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
